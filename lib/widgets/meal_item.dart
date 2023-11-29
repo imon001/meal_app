@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:meal_app/widgets/meal_item_traits.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 import '../models/meals_model.dart';
+import 'meal_item_traits.dart';
 
 class MealItem extends StatelessWidget {
   const MealItem({super.key, required this.meals, required this.onclick});

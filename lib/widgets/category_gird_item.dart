@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:meal_app/models/category_model.dart';
+
+import '../models/category_model.dart';
 
 class CategoryGirdItem extends StatelessWidget {
   const CategoryGirdItem({super.key, required this.category, required this.selectCategory});

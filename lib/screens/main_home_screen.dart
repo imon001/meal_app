@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:meal_app/provider/favorites_provider.dart';
-import 'package:meal_app/provider/filter_provider.dart';
-import 'package:meal_app/screens/meal_screen.dart';
 
+import '../provider/favorites_provider.dart';
+import '../provider/filter_provider.dart';
 import '../widgets/main_drawer.dart';
 import 'categories_screen.dart';
 import 'filter_screen.dart';
+import 'meal_screen.dart';
 
 class MainHome extends ConsumerStatefulWidget {
   const MainHome({super.key});

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:meal_app/provider/filter_provider.dart';
+
+import '../provider/filter_provider.dart';
 
 class FilterScreen extends ConsumerWidget {
   const FilterScreen({super.key});

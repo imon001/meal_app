@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:meal_app/data/dummy_data.dart';
-import 'package:meal_app/models/category_model.dart';
-import 'package:meal_app/screens/meal_screen.dart';
-import 'package:meal_app/widgets/category_gird_item.dart';
 
+import '../data/dummy_data.dart';
+import '../models/category_model.dart';
 import '../models/meals_model.dart';
+import '../widgets/category_gird_item.dart';
+import 'meal_screen.dart';
 
 class CategoriesView extends StatefulWidget {
   const CategoriesView({super.key, required this.availableMeal});
@@ -42,9 +42,6 @@ class _CategoriesViewState extends State<CategoriesView> with SingleTickerProvid
               meals: filteredMeals,
               title: category.title,
             )));
-    // final fillteredMeals = widget.availableMeal.where((meal) => meal.categories.contains(category.id)).toList();
-    // Navigator.of(context).push(MaterialPageRoute(builder:
-    // (ctx)=>));
   }
 
   @override
