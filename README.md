@@ -13,11 +13,11 @@ Flutter widgets (stateless and stateful) and styling-->
 
 ## Features
 
-- Filter out different recipes🍔. 
-- Mark recipes as favorite⭐.
-- Simple and intuitive UI👍.
+- Filter out different recipes. 
+- Mark recipes as favorite.
+- Simple and intuitive UI.
 - Beautiful Material Design👓.
-- Provides recipes for tasty dishes😋
+- Provides recipes for tasty dishes
 
 
 
